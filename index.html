@@ -1,0 +1,22 @@
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+<script src="http://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js">
+</script>
+<h1>Filter Fun</h1>
+<br>
+<br>
+<canvas id="can"></canvas>
+<br>
+<br>
+<input type="file" multiple="false"
+         id="img" name="img" accept="image/*" onchange="upload()">
+<input type="button" id="reset" class="btn" name="reset" value="Reset Image" onclick="reset()">
+<br>
+<br>
+<br>
+<table>
+<th><td>Filters Available</td></th>
+ <td><input type="button"class="btnfilter" value="Make GrayScale" onclick="grayscale()"></td>
+<td><input type="button"class="btnfilter" value="Make Red" onclick="red()"></td>
+<td><input type="button" class="btnfilter" value="Rainbow" onclick="rainbow()"></td>
+<td style="border:none;"><input type="button" class="btnfilter" value="Blur" onclick="blurring()"></td>
+</table>
