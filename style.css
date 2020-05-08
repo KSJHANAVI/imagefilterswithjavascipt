@@ -1,0 +1,52 @@
+*
+{
+  font-family:Roboto,sans-serif;
+  color:white;
+}
+body
+{
+  background-color:black;
+}
+h1
+{
+  color:white;
+}
+canvas
+{
+    height:300px;
+    width:600px;
+  border:1px solid gray;
+  border-radius:10px;
+}
+.btn
+{
+  margin-left:60px;
+  background-color:red;
+  //border-radius:10px;
+  border:1.5px solid red;
+  color:white;
+  border-radius:2px;
+  cursor:pointer;
+  padding:5px;
+}
+table
+{
+  border:1px solid white;
+  padding:10px;
+  border-radius:10px;
+}
+.btnfilter
+{
+  background-color:dodgerblue;
+  border:1.5px solid dodgerblue;
+  font-size:15px;
+  border-radius:2px;
+  padding:3px;
+  font-weight:bold;
+  cursor:pointer;
+}
+td
+{
+  border-right:1px solid white;
+  padding:10px;
+}
